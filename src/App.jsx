@@ -6,7 +6,7 @@ function App() {
     const [history, setHistory] = React.useState();
     const [text, setText] = React.useState();
 
-    const url = "https://damp-everglades-11533.herokuapp.com/";
+    const url = "https://damp-everglades-11533.herokuapp.com";
     //const url = "http://127.0.0.1:8000";
 
     const GetPostData = () => {
